@@ -5,12 +5,12 @@ export default function Navbar() {
   return < nav className="nav">
     <Link to="/" className="site-title">Podcaster</Link>
     <ul>
-      <li>
+      {/* <li>
         <Link to="/episode">Episode</Link>
       </li>
       <li>
         <Link to="/podcast"> Podcast</Link>
-      </li>
+      </li> */}
     </ul>
   </nav>
 }
