@@ -1,12 +1,13 @@
 
-import React, { useEffect, useState } from "react";
-
+// import React, { useEffect, useState } from "react";
+// import { Button } from "reactstrap";
 import Navbar from './Navbar';
-import { Link } from "react-router-dom";
-// import Episode from '../pages/Episode';
-// import Podcast from '../pages/Podcast';
-// import { Route, Routes } from 'react-router-dom';
-import Card from './Card';
+// import { Link } from "react-router-dom";
+import Episode from '../pages/Episode';
+import Podcast from '../pages/Podcast';
+import { Route, Routes } from 'react-router-dom';
+import GeneralCard from './Card';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   // const[ people, fetchPeople] = useState ([])
@@ -29,28 +30,17 @@ function App() {
     <>
       <Navbar />
       <div className='container'>
-        {/* <Routes>
+        <Routes>
         <Route path='/episode' element = {<Episode />}/>
         <Route path='/podcast' element = {<Podcast />}/>
-      </Routes> */}
+      </Routes>
       </div>
-      <div className="container-card d-flex">
-       
-          return (<Card>
-            <p className="card-text">
-              <strong>Titulo:</strong> 
-            </p>
-            <p className="card-text">
-              <strong>Autor:</strong> 
-            </p>
-            <Link to="/episode" className="link_to">
-              <button id="btnLearnmore">Learn more</button>
-            </Link>{" "}
+      <div className='container-fluid'>
+        <GeneralCard></GeneralCard>
 
-          </Card>
-          );
+
       </div>
-
+      
 
 
 
