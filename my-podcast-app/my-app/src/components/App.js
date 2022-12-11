@@ -8,24 +8,8 @@ import Podcast from '../pages/Podcast';
 import { Route, Routes } from 'react-router-dom';
 import GeneralCard from './Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import SearchBar from './Seach';
 function App() {
-  // const[ people, fetchPeople] = useState ([])
-  // const getData = () => {
-  //     fetch('https://swapi.dev/api/people/')
-  //       .then((res) => res.json())
-  //       .then((res) => {
-  //         console.log(res)
-  //         fetchPeople(res)
-  //       })
-  //   }
-  //   useEffect(() => {
-  //     getData()
-  //   }, [])
-
-
-
-
   return (
     <>
       <Navbar />
@@ -36,18 +20,11 @@ function App() {
       </Routes>
       </div>
       <div className='container-fluid'>
+        <SearchBar></SearchBar>
         <GeneralCard></GeneralCard>
 
 
       </div>
-      
-
-
-
-
-
-
-
     </>
   );
 }
