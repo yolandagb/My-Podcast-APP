@@ -14,11 +14,11 @@ export default function SearchBar() {
         console.log("search ", searchTerm);
     };
     return (
-        <div className="App">
-            <div className="search-container">
+        <div className="search-container">
                 <div className="search-inner">
-                    <input type="text" value={value} onChange={onChange} />
-                    <button onClick={() => onSearch(value)}> Search </button>
+                    
+                    <input type="text"  placeholder="Search" value={value} onChange={onChange} />
+                    <button onClick={() => onSearch(value)}  > Search </button>
                 </div>
                 <div className="dropdown">
                     {data
@@ -43,7 +43,7 @@ export default function SearchBar() {
                             </div>
                         ))}
                 </div>
-            </div>
+            
         </div>
     );
 
