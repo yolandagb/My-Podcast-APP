@@ -13,7 +13,7 @@
 
 
  How many user stories can you define?
- 10 historias de usuario principales.
+ 11 historias de usuario principales.
  Login
  Registro
  Home (inicio)
@@ -24,11 +24,10 @@
  Grabar video
  Ver Video
  Tienda
-
-
+ Como idea, creo que sería interesante añadir una fucnionalidad de favoritos.
 
  What architecture would you implement?
- Creo que esta es la pregunta mas compleja y de la que no estaría muy segura que arqiutectura sería la mas adecuada para esta pagina
+ Creo que esta es la pregunta mas compleja y de la que no estaría muy segura que arquitectura sería la mas adecuada para esta pagina. Pero creo que haría multiples "web servers & data base".
 
 
 
